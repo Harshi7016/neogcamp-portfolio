@@ -3,14 +3,16 @@
 
 :root {
   --primary-color: #3b82f6;
-  --dark-grey: #6b7280;
+  --light-grey: #6b7280;
+  --dark-grey: #4b5563;
+  --lighter-grey: #f3f4f6;
 }
 body {
   font-family: 'Montserrat', 'sans-serif';
 }
 
 .container {
-  padding: 10rem 10rem;
+  padding: 0rem 2rem;
 }
 
 .container-center {
@@ -95,4 +97,17 @@ hr {
 
 .hero .hero-heading-inverted {
   color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--lighter-grey);
 }
