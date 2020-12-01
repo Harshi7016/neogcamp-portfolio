@@ -85,6 +85,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -141,4 +142,10 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+/** margin **/
+
+.margin-md{
+    padding: 2rem 0;
 }
