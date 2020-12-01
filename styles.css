@@ -25,8 +25,10 @@ body {
 /** link **/
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
 }
 
 .link-primary {
@@ -116,6 +118,9 @@ hr {
     background-color: var(--lighter-grey);
 }
 
+/** footer **/
+
+
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
@@ -127,6 +132,11 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
