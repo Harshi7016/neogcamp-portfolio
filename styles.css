@@ -11,6 +11,7 @@
 body {
     font-family: 'Montserrat', 'sans-serif';
     margin:0px;
+    background-color: #BFDBFE;
 }
 
 .container {
@@ -89,7 +90,8 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 400px;
+    border-radius: 50%;
     display: block;
     margin: auto;
 }
@@ -138,6 +140,7 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    padding-bottom: 2rem;
 }
 
 .footer ul{
@@ -149,3 +152,23 @@ hr {
 .margin-md{
     padding: 2rem 0;
 }
+
+
+.social-media {
+    text-align: center;
+  }
+  
+  .social-media .social-media--link {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .social-media .social-media--link:last-child {
+    margin-right: 0;
+  }
+
+  .social-media .social-media--icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
