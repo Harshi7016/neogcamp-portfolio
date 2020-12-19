@@ -139,11 +139,26 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.sm-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: "Roboto Slab", sans-serif;
+  }
+
+.sm-footer a,
+.sm-footer a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
 }
 
 /** margin **/
