@@ -95,6 +95,13 @@ hr {
     margin: auto;
 }
 
+.hero .hero-video {
+    max-width: 80%;
+    
+    display: block;
+    margin: auto;
+}
+
 .hero .hero-heading {
     padding: 1rem 0;
     font-size: 2rem;
